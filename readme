@@ -1,0 +1,19 @@
+
+Google | cleanup search results
+
+【概要】
+Googleの検索結果表示から、任意のエントリを除外します。
+詳しくは http://blog.sizuken.com/archives/128/ 等を参照。
+
+【動作】
+・SearchSpamリストにヒットしたエントリの表示を薄く(opacity:0.3)します。
+　※完全に削除したい場合は、CSS部分をdisplay:none等に書き換えてください。
+・Shiftキーを押しながら検索結果ページをロードすると、ADDLSTダイアログが開きます。
+　※キーが干渉する場合には、該当部を削除するかキーコードを変更してください。
+
+【導入】
+1. フィルタをインポートする
+2. 設定→Blockfileから、リスト名 SearchSpam を追加する
+
+【注意】
+n/a
