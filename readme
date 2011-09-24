@@ -12,8 +12,11 @@ Googleの検索結果表示から、任意のエントリを除外します。
 　※キーが干渉する場合には、該当部を削除するかキーコードを変更してください。
 
 【導入】
+0. Google検索のAjax動作が無効化できていることを確認する(後述)
 1. フィルタをインポートする
 2. 設定→Blockfileから、リスト名 SearchSpam を追加する
 
 【注意】
-n/a
+Google検索ページでのAjax動作を無効化していないと動作しません。
+「Google | Ajax killer」フィルタなどの併用が必要です。
+→https://github.com/Sizuken/Google-Ajax-killer
