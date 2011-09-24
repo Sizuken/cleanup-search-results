@@ -19,4 +19,4 @@ Googleの検索結果表示から、任意のエントリを除外します。
 【注意】
 Google検索ページでのAjax動作を無効化していないと動作しません。
 「Google | Ajax killer」フィルタなどの併用が必要です。
-→https://github.com/Sizuken/Google-Ajax-killer
+https://github.com/Sizuken/Google-Ajax-killer
