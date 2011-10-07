@@ -3,7 +3,7 @@
 List.SearchSpam = "..\Lists\SearchSpam.txt"
 
 [Patterns]
-Name = "Google | cleanup search results 2 20110906"
+Name = "Google | cleanup search results 2 20111007"
 Active = TRUE
 Multi = TRUE
 URL = "www.google.c(o.jp|m)/search\? $TYPE(htm)"
@@ -11,9 +11,9 @@ Limit = 2048
 Match = "$KEYCHK(^16)$ADDLSTBOX(SearchSpam,URL(w/o http://))"
         "$SET(0=<script>document.location="\u";</script>)"
         "|"
-        "<li (class=$AV(g *)[^>]+> <div [^>]+> <span [^>]+> <h3 [^>]+>"
+        "<li (class=$AV(g *)[^>]+> <div [^>]+> (<span [^>]+> |)<h3 [^>]+>"
         " <a href=$AV(http(s|)://("
-        "$LST(SearchSpam)$SET(0=<li style="opacity:0.3" )|"
+        "$LST(SearchSpam)$SET(0=<li style="opacity: 0.3" )|"
         "$LST(AdList)$SET(0=<li style="opacity: 0.3" )"
         ")*))\9"
 Replace = "\0\9"
