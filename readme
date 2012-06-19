@@ -1,5 +1,5 @@
 
-Google | cleanup search results
+Google | cleanup search results 3
 
 【概要】
 Googleの検索結果表示から、任意のエントリを除外します。
@@ -18,7 +18,9 @@ Googleの検索結果表示から、任意のエントリを除外します。
 
 【注意】
 ・Google検索ページでのAjax動作を無効化していないと動作しません。
-　「Google | Ajax killer」フィルタなどの併用が必要です。
+　※Google側の仕様変更により、Ajax無効化手段の多くが使用不可能となりました。
+　　《よって、ver.3以降のサポートは「未対応UA向けページ」に対してのみ行います。》
+　　この件についての詳細、及びUA偽装の方法については以下のリンク先をご覧下さい。
 https://github.com/Sizuken/Google-Ajax-killer
 ・Google側の仕様変更があった場合、全ユーザ/環境へ仕様変更が浸透するまでにおよそ
 　数日～数週間、長い場合には数ヶ月ほど掛かることが知られています。また、仕様変更が
